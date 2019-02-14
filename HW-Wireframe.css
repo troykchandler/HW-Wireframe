@@ -1,0 +1,53 @@
+* { 
+ box-sizing: border-box; 
+ text-align: center;
+ background:rgb(97, 93, 93);
+}
+
+body {
+    font-size: 24px;
+    line-height: 32px;
+    color:rgb(116, 116, 116); 
+    }
+header {
+    font-size: 16px;
+    margin-bottom:10px;
+    padding:20px;
+    background: rgb(238, 238, 238);
+    color:rgb(0, 0, 0);
+     }
+#NAV {
+    font-size:16px;
+    margin-bottom:10px;
+    padding:10px;
+    background:rgb(238, 238, 238);
+    color:black;  
+}
+section {
+    float:left;
+    width:48%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding:10px;
+    color: rgb(0, 0, 0);
+    background: rgb(238, 238, 238)
+}
+footer {
+    padding: 20px;
+    text-align:center;
+    font-size:16px;
+    color:black;
+    clear: both;
+    background: rgb(238, 238, 238);
+}
+#Aside {
+    float: right;
+    width: 48%;
+    height: 205px;
+    padding: 20px;
+    text-decoration-color: white;
+    background: rgb(238, 238, 238);
+    border: 1px solid #eee;
+    text-align:center;
+
+}

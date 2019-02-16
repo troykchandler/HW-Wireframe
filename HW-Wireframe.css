@@ -3,12 +3,6 @@
  text-align: center;
  background:rgb(97, 93, 93);
 }
-
-body {
-    font-size: 24px;
-    line-height: 32px;
-    color:rgb(116, 116, 116); 
-    }
 header {
     font-size: 16px;
     margin-bottom:10px;
@@ -16,38 +10,82 @@ header {
     background: rgb(238, 238, 238);
     color:rgb(0, 0, 0);
      }
-#NAV {
+#nav {
     font-size:16px;
-    margin-bottom:10px;
-    padding:10px;
+    margin-bottom:20px;
+    padding:20px;
     background:rgb(238, 238, 238);
     color:black;  
 }
-section {
-    float:left;
-    width:48%;
-    font-size: 16px;
-    margin-bottom: 10px;
-    padding:10px;
-    color: rgb(0, 0, 0);
-    background: rgb(238, 238, 238)
-}
-footer {
-    padding: 20px;
-    text-align:center;
-    font-size:16px;
-    color:black;
-    clear: both;
-    background: rgb(238, 238, 238);
-}
 #Aside {
     float: right;
-    width: 48%;
-    height: 205px;
-    padding: 20px;
-    text-decoration-color: white;
+    width: 42%;
+    padding: 5px;
+    height:250px;
     background: rgb(238, 238, 238);
-    border: 1px solid #eee;
     text-align:center;
+    color:black;
+}
+footer {
+    padding:20px; 
+    text-align: center;
+    font-size:16px;
+    color:black;
+    clear:both;
+    margin-bottom:100px;
+    Margin-top: 300px;
+    background: rgb(238, 238, 238);
+}
+#section{ float: left;
+    width: 57%;
+    padding: 5px;
+    height:250px;
+    background: rgb(238, 238, 238);
+    text-align:center;
+    color:black;
+    z-index:1;
+    position: relative;
+}
+div.article{
+    height:160px;
+    width:48%;
+    color:white;
+    text-align:center;
+    background:rgb(97, 93, 93);
+    border:solid black; 
+    margin-top:80px;
+    margin-bottom:100px;
+    margin-left:50px;
+    z-index:2;
+    position: absolute;
+}
+div.P{
+    width:42%;
+    background:rgb(238, 238, 238);
+    color:black;
+    Margin-top:185px;
+    Margin-bottom:60px;
+    margin-left:90px;
+    z-index:50;
+    position: absolute;
+}
+div.head{
+width:42%;
+background:rgb(238, 238, 238);
+color:black;
+margin-top:130px;
+margin-bottom:60px;
+margin-left:90px;
+z-index:60;
+position:absolute;
 
+}
+div.head p,
+div.P p{
+    line-height:45px;
+    margin:0px;
+    text-align:center;
+    font: size 16px;
+    color:black;
+    background:rgb(238, 238, 238);
 }
